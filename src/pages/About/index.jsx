@@ -1,5 +1,13 @@
+import "./about.scss"
+import Banner from "../../components/Banner/Banner"
+import aboutBanner from "../../assets/about_banner.png"
+
 function About() {
-  return <h1>À propos de Kasa</h1>
+  return (
+    <div className="about">
+    <Banner image={aboutBanner}/>
+    </div>
+)
 }
 
 export default About

@@ -13,7 +13,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
   color: #333;
-  line-height: 1.5;
+  max-width: 1440px;
+  margin: 0 auto;  
 }
 
 
@@ -24,4 +25,5 @@ body {
 
 main {
   flex: 1;
+  margin: 0;
 }
