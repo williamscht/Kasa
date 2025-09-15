@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./Collapse.scss"
-import { FaChevronDown } from "react-icons/fa" // tu peux installer react-icons
+import { FaChevronDown } from "react-icons/fa"
 
 function Collapse({ title, children }) {
   const [isOpen, setIsOpen] = useState(false)
