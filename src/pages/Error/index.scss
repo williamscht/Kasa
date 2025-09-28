@@ -1,0 +1,26 @@
+.error {
+    text-align: center;
+    color: #ff6060;
+    margin: 50px 0;
+  
+    &-code {
+      font-size: 180px;
+      font-weight: bold;
+    }
+  
+    &-message {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+  
+    &-link {
+      font-size: 18px;
+      color: black;
+      text-decoration: underline;
+  
+      &:hover {
+        color: #ff6060;
+      }
+    }
+  }
+  
