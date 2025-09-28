@@ -8,7 +8,7 @@ function Header() {
       <img src={logo} alt="Logo Kasa" className="logo" />
       <nav>
         <NavLink to="/">Accueil</NavLink>
-        <NavLink to="/about">À propos</NavLink>
+        <NavLink to="/about">A propos</NavLink>
       </nav>
     </header>
   )
