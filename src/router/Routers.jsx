@@ -6,6 +6,7 @@ import Footer from "../components/Footer/Footer"
 import Home from "../pages/Home"
 import About from "../pages/About"
 import Error from "../pages/Error"
+import Apartment from "../pages/Apartment"
 
 
 
@@ -16,6 +17,7 @@ function AppRouter() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/apartment/:id" element={<Apartment />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Error />} />
         </Routes>
