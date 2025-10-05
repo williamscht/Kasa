@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./Collapse.scss"
+import "./index.scss"
 import { FaChevronDown } from "react-icons/fa"
 
 function Collapse({ title, children }) {

@@ -1,17 +1,17 @@
-import { useParams } from "react-router-dom"
-import logements from "../../datas/logements.json"
+import { useParams, Navigate } from "react-router-dom"
+import logements from "../../datas/housing.json"
 import "./index.scss"
 import { FaStar } from "react-icons/fa"
 
-import Collapse from "../../components/Collapse/Collapse"
-import Carousel from "../../components/Carousel/Carousel"
+import Collapse from "../../components/Collapse"
+import Carousel from "../../components/Carousel"
 
 function Apartment() {
   const { id } = useParams()
   const logement = logements.find((item) => item.id === id)
 
   if (!logement) {
-    return <h2>Logement non trouvé</h2>
+    return <Navigate to ="*" replace />
   }
 
   return (
@@ -42,7 +42,7 @@ function Apartment() {
         {/* Hôte + note */}
         <div className="apartment-host">
           <div className="host">
-            <p>{logement.host.name}</p>
+            <p>{logement.host.name.replace(" ", "\n")}</p>
             <img src={logement.host.picture} alt={logement.host.name} />
           </div>
           <div className="rating">

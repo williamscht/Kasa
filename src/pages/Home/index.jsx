@@ -1,9 +1,9 @@
-import "./Home.scss"
-import Banner from "../../components/Banner/Banner"
+import "./index.scss"
+import Banner from "../../components/Banner"
 import homeBanner from "../../assets/home_banner.png"
 import Card from "../../components/Card"
 
-import logements from "../../datas/logements.json"
+import logements from "../../datas/housing.json"
 
 function Home() {
   
