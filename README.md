@@ -1,6 +1,6 @@
 # 🏠 Kasa
 
-Projet front-end réalisé avec **React** et **Vite** dans le cadre du parcours *Développeur Web* chez OpenClassrooms. L’application reproduit le site de location d’appartements **Kasa**, en suivant les maquettes Figma et les bonnes pratiques React.
+Projet front-end réalisé avec **React** et **Vite** dans le cadre du parcours *Développeur Web* chez OpenClassrooms. L’application reproduit le site de location d’appartements **Kasa**.
 
 ## 🧰 Technologies utilisées
 
