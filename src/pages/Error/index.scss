@@ -15,6 +15,7 @@
   
     &-link {
       font-size: 18px;
+      margin: 20px 0;
       color: black;
       text-decoration: underline;
   
@@ -22,5 +23,33 @@
         color: #ff6060;
       }
     }
-  }
+
+
+    @media screen and (max-width: 768px) {
+    padding: 8px 10px;
+    max-width: 100%;
+    margin: 20px 0;
+
+    
+    &-code{
+        font-size: 96px;
+      }
+
+
+    &-message{
+        margin: 75px 0;
+        font-size: 24px;
+      }
+    
+    &-link {
+      font-size: 14px;
+      margin: 20px 0;
   
+      &:hover {
+        color: #ff6060;
+      }
+    }
+  
+      
+    }
+  }
