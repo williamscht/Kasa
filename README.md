@@ -1,12 +1,28 @@
-# React + Vite
+# 🏠 Kasa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projet front-end réalisé avec **React** et **Vite** dans le cadre du parcours *Développeur Web* chez OpenClassrooms. L’application reproduit le site de location d’appartements **Kasa**, en suivant les maquettes Figma et les bonnes pratiques React.
 
-Currently, two official plugins are available:
+## 🧰 Technologies utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** — création des composants dynamiques  
+- 🧭 **React Router DOM** — gestion du routage (SPA)  
+- 🎨 **Sass (SCSS)** — stylisation modulaire et responsive  
+- ⚡ **Vite** — environnement de développement rapide et léger  
+- 🌍 **GitHub Pages** — hébergement du site
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Structure du projet
+
+- /src → contient les composants, pages et styles
+- /datas → contient les données JSON des logements
+- /docs → dossier utilisé pour le déploiement sur GitHub Pages
+
+
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/williamscht/Kasa.git
+cd Kasa
+npm install
+npm run dev
