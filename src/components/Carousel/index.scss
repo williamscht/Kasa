@@ -44,8 +44,11 @@
 
     @media screen and (max-width: 768px) {
     max-width: 100%;
-    margin: 20px 0;
-      
+    margin-bottom: 20px;
+
+    .carousel-btn {
+      font-size: 4rem;
+    }
     }
     
   }

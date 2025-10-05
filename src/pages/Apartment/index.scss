@@ -102,11 +102,76 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     width: 100%;
+  }
 
-    @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    padding: 8px 10px;
+    max-width: 100%;
+    margin-top: 5px;
+
+    &-content {
+      flex-direction: column;
+      gap: 20px;
+
+      .apartment-info {
+        h1 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .apartment-tags {
+          flex-wrap: wrap;
+          gap: 8px;
+
+          .tag {
+            font-size: 10px;
+            font-weight: 700;
+            padding: 5px 10px;
+          }
+        }
+      }
+
+      .apartment-host {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .host {
+          flex-direction: row;
+
+          img {
+            width: 32px;
+            height: 32px;
+          }
+
+          p {
+            text-align: right;
+            font-size: 12px;
+            font-weight: 500;
+          }
+        }
+
+        .rating {
+          margin-top: 0;
+          
+          .star { 
+          font-size: 18px;
+          
+          &.filled {
+            color: #ff6060;
+          }
+          }
+        }
+      }
+    }
+
+    &-collapses {
       grid-template-columns: 1fr;
       gap: 5px;
-      width: 100%;
     }
   }
 }
