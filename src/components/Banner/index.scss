@@ -1,8 +1,9 @@
 .banner {
   position: relative;
   width: 100%;         
-  height: 250px;
+  height: 223px;
   border-radius: 15px;
+  box-shadow: 0px 5px 5px -2px #656565;
   overflow: hidden;
 
   .banner-image {
@@ -10,7 +11,7 @@
     height: 100%;
     object-fit: cover;   
     border-radius: 15px;
-    filter: brightness(70%);
+    filter: brightness(40%);
     
   }
 
