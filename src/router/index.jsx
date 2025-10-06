@@ -12,7 +12,7 @@ import Apartment from "../pages/Apartment"
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename ="/Kasa/">
      <Header/>
       <main>
         <Routes>
