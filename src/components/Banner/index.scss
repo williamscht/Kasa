@@ -26,10 +26,19 @@
     text-align: center;
     width: 90%;
   }
+
+  .mobile-break {
+    display: none;
+  }
   
   @media screen and (max-width: 768px) {
     .banner-text {
       font-size: 24px;
+      text-align: left;
     }
+
+  .mobile-break {
+    display: inline;
   }
+}
 }
